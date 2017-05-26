@@ -1,0 +1,3 @@
+Database handles still open at environment close
+Open database handle: wallet.dat/main
+Open database handle: blkindex.dat/main

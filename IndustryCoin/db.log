@@ -1,0 +1,6 @@
+txn_checkpoint interface requires an environment configured for the transaction subsystem
+Database handles still open at environment close
+Open database handle: blkindex.dat/main
+Database handles still open at environment close
+Open database handle: wallet.dat/main
+Open database handle: blkindex.dat/main

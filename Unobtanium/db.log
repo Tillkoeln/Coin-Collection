@@ -1,0 +1,18 @@
+file wallet.dat has LSN 1/924, past end of log at 1/476
+Commonly caused by moving a database from one database environment
+to another without clearing the database LSNs, or by removing all of
+the log files from a database environment
+DB_ENV->log_flush: LSN of 1/924 past current end-of-log of 1/476
+Database environment corrupt; the wrong log files may have been removed or incompatible database files imported from another environment
+PANIC: DB_RUNRECOVERY: Fatal error, run database recovery
+wallet.dat: unable to flush page: 10
+PANIC: fatal region error detected; run recovery
+PANIC: fatal region error detected; run recovery
+PANIC: fatal region error detected; run recovery
+PANIC: fatal region error detected; run recovery
+PANIC: fatal region error detected; run recovery
+PANIC: fatal region error detected; run recovery
+PANIC: fatal region error detected; run recovery
+File handles still open at environment close
+
+PANIC: fatal region error detected; run recovery

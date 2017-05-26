@@ -1,0 +1,6 @@
+file unknown has LSN 1/3269947, past end of log at 1/28
+Commonly caused by moving a database from one database environment
+to another without clearing the database LSNs, or by removing all of
+the log files from a database environment
+
+Database handles still open at environment close
